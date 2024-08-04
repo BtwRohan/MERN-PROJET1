@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: black;
+}
+
+.max-w-md {
+    max-width: 30rem; /* Adjust as needed */
+}
+
+.rounded-lg {
+    border-radius: 0.9rem; /* Adjust for rounded corners */
+}
+
+.shadow-2xl {
+    box-shadow: 0 10px 20px orangered; /* Example shadow */
+}
+
+.bg-gray-400 {
+    background-color: lightpink; /* Gray background */
+}
+
+.bg-white {
+    background-color: lightblue; /* White background */
+}
+
+.text-center {
+    text-align: center; /* Center text */
+}
+
+html, body {
+    height: 100vh; /* Ensure full height for centering */
+    margin: 500;
+    font-family: Arial, sans-serif;
+}
+#root {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh;
+}
+/* Add any additional custom styles here */
